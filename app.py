@@ -9,7 +9,7 @@ model = joblib.load("enhanced_salary_model.pkl")
 
 # App Title
 st.title("Employee Salary Prediction App")
-st.subheader("Using Linear Regression - IBM Capstone Project")
+st.subheader("Using Linear Regression & Ridge - IBM Capstone Project")
 
 # Sidebar Inputs
 st.sidebar.header("Input Employee Details")
